@@ -8,7 +8,7 @@ export const useCart = () => {
   };
   const [data] = useState(db);
   const [cart, setCart] = useState(initialCart);
-
+  // constants
   const MAX_ITEMS = 5;
   const MIN_ITEMS = 1;
 
